@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  padding: 0px 60px;
+  align-items: center;
+  background-color: #ffd4d0;
+}
+nav {
+  height: 100px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 30px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 300px;
+  position: absolute;
+  left: 30%;
+}
+ul li {
+  margin-left: 60px;
+  font-weight: 700;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:active {
+  color: #fc3314;
+}
+.circle {
+  height: 130px;
+  width: 130px;
+  background-color: #fc3314;
+  border: none;
+  border-radius: 50%;
+  transform: translateY(-45px);
+  translate: -240px;
+}
+.headbtn {
+  height: 30px;
+  width: 10%;
+  border: solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.jones {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+.designer {
+  height: 60vh;
+  width: 50%;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.sarah {
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.btn {
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+.hirebtn {
+  height: 30px;
+  width: 25%;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.portbtn {
+  height: 30px;
+  width: 25%;
+  border: solid black;
+  background-color: white;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.lady {
+  transform: translateY(6px);
+}
+.first {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.about {
+  height: 90px;
+  width: 60%;
+}
+.achievements {
+  height: 100px;
+  width: 70%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.ash {
+  font-size: 60px;
+  color: #ffd4d0;
+}
+.cycle {
+  height: 75px;
+  width: 150px;
+  position: absolute;
+  border: none;
+  background-color: #fc3314;
+  border-radius: 200px 200px 0px 0px;
+  margin-left: 40%;
+}
+h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.second {
+  height: 400px;
+  width: 100%;
+  padding: 4% 8%;
+}
+.service {
+  text-align: center;
+}
+.qualities {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.ui {
+  height: 220px;
+  width: 23%;
+}
+.icon,
+h3 {
+  margin-bottom: 23px;
+}
+.third {
+  height: 150vh;
+  width: 100%;
+  padding: 4% 0%;
+}
+.port {
+  background-color: #ffd4d0;
+  height: 280px;
+  width: 100%;
+  padding-top: 40px;
+}
+.cards {
+  height: 330px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 0% 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.car {
+  height: 230px;
+}
+.cardimage {
+  height: 180px;
+  transform: translateY(-100px);
+}
+.app {
+  margin-top: -90px;
+  display: flex;
+  justify-content: space-between;
+}
+.arrow {
+  height: 30px;
+  transform: rotateX(60);
+  color: white;
+}
+.arrowbtn {
+  height: 40px;
+  width: 40px;
+  background-color: #fc3314;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fourth {
+  height: 410px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 1% 8%;
+}
+input:in-range {
+  width: 70%;
+}
+.range {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.subrange {
+  width: 50%;
+  line-height: 35px;
+}
+.fifth {
+  height: 400px;
+  width: 100%;
+  background-color: #ffd4d0;
+  display: flex;
+}
+.half {
+  border-radius: 0px 0px 200px 200px;
+}
+.test {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+.causoral {
+  margin-top: 13%;
+}
+.smith {
+  margin-top: 50px;
+  height: 100px;
+  width: 70%;
+  display: flex;
+  margin-left: 23pc;
+}
+.ceo {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.sixth {
+  height: 97vh;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 4% 8%;
+}
+.tips {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+.diveimage {
+  height: 180px;
+}
+.readicon {
+  height: 30px;
+  transform: translateY(11px);
+}
+.dive {
+  margin-top: 20px;
+}
+.object {
+  height: 180px;
+  width: 100%;
+  background-color: #ffd4d0;
+}
+.obj-image {
+  margin: 20px 50px;
+}
+h5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.typography {
+  height: 370px;
+  width: 29%;
+}
+.seventh {
+  height: 90vh;
+  width: 100%;
+  background-color: #ffd4d0;
+  padding: 7% 8%;
+  display: flex;
+}
+.side-cycle {
+  height: 75px;
+  width: 150px;
+  background-color: #fc3314;
+  border-radius: 0px 0px 200px 200px;
+  margin-top: 14%;
+  position: absolute;
+  transform: rotate(-90deg);
+  translate: -140px;
+}
+.subseventh,
+form {
+  height: 400px;
+  width: 50%;
+}
+.get {
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+h3 {
+  font-size: 30px;
+}
+.telephone {
+  line-height: 50px;
+}
+.social {
+  margin-top: 50px;
+  word-spacing: 20px;
+}
+form {
+  line-height: 50px;
+  margin-left: 40px;
+}
+#text {
+  height: 30px;
+  width: 80%;
+  border: none;
+  padding-left: 20px;
+}
+#message {
+  height: 120px;
+  width: 80%;
+  margin-top: 10px;
+  padding-left: 20px;
+  border: none;
+}
+#message::placeholder {
+}
+.sendbtn {
+  height: 30px;
+  width: 30%;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+.about {
+  color: white;
+}
+.logo2 {
+  margin-;
+  height: 50px;
+}
