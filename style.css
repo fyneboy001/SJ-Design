@@ -316,7 +316,7 @@ form {
   margin-bottom: 40px;
   line-height: 25px;
 }
-h3 {
+.touch {
   font-size: 30px;
 }
 .telephone {
@@ -343,8 +343,8 @@ form {
   padding-left: 20px;
   border: none;
 }
-#message::placeholder {
-}
+/* #message::placeholder {
+} */
 .sendbtn {
   height: 30px;
   width: 30%;
@@ -352,16 +352,30 @@ form {
   background-color: black;
   color: white;
   margin-top: 20px;
+  cursor: pointer;
 }
 footer {
   height: 400px;
   width: 100%;
   background-color: #1f1f1f;
+  justify-items: center;
 }
-.about {
+.footnav {
+  justify-content: center;
+  word-spacing: 50px;
+  padding-top: 9%;
   color: white;
+  margin-left: 40px;
 }
 .logo2 {
-  margin-;
-  height: 50px;
+  height: 40px;
+  padding: 0px 70px;
+  transform: translateY(13px);
+}
+.follow {
+  margin-top: 70px;
+  color: #cac8c8;
+}
+.handles {
+  margin-top: 30px;
 }
